@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* headimg1 */
+.main1{
+    width: 100%;
+}
+/* About */
+.underline{
+    height: 5px;
+    width: 500px;
+    background-color: red;
+    margin: auto;
+    margin-top: 10px;
+}
+.abouthead{
+    text-align: center;
+   
+}
+/* button */
+.btn1{
+    background-color: blue;
+    border: none;
+   padding: 15px;
+   margin: auto;
+   display: block;
+   margin-bottom: 50px;  
+}
+.underline2{
+    height: 5px;
+    width: 200px;
+    background-color: red;
+    margin: auto;
+    margin-top: 10px;
+}
+.col{
+    background-color: rgb(211, 216, 206);
+    font-size: 1.2rem;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+.container{
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 0rem;
+    margin-top: 50px;
+}
+.carhead{
+    text-align: center;
+    margin-top:50px;
+}
+.car-container{
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+    border: aqua;
+}
+.car_row{
+    --auto-grid-min-size:16rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size),1fr) );
+    grid-gap:1rem;
+    margin-top: 50px;
+}
+.car_col{
+    font-size: 1.2rem;
+    padding: 20px;
+    border: 1px solid white;
+}
+/** map***/
+.locationhead{
+    text-align: center;
+    margin-top: 50px;
+}
+.map{
+    margin-top: 50px;
+}
+.footertext{
+    text-align: center;
+    padding: 20px;
+
+}
+footer{
+    background-color: white;
+}
+/* arrow */
+.arrow{
+    color: white;
+}
